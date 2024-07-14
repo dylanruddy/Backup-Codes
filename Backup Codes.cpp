@@ -33,9 +33,14 @@ while (password != correctpassword && tries < maxtries -1)
     if (password == correctpassword)
     {
         cout << "Access Granted! Here are your backup codes: " << endl;
-        cout << number[0] << endl;
-        cout << number[1] << endl;
-        cout << number[2] << endl;
+
+     for (int i = 0, number > 1, i++){
+
+          cout << number[i] << endl;
+     } 
+
+        
+        
     }   
 
     else {
